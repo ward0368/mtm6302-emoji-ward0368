@@ -37,3 +37,4 @@ emojiData.forEach(emoji => {
     emojiItem.appendChild(emojiCode);
     emojiGallery.appendChild(emojiItem);
 });
+
