@@ -1,4 +1,3 @@
-
 const emojiData = [
     { character: "&#x1F600;", code: "1F600" },
     { character: "&#x1F601;", code: "1F601" },
@@ -29,7 +28,7 @@ emojiData.forEach(emoji => {
     emojiItem.className = "emoji-item";
 
     const emojiCharacter = document.createElement("p");
-    emojiCharacter.innerHTML = <span style="font-size: 5rem;">${emoji.character}</span>;
+    emojiCharacter.innerHTML = `<span style="font-size: 5rem;">${emoji.character}</span>`;
 
     const emojiCode = document.createElement("code");
     emojiCode.textContent = emoji.code;
